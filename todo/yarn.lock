@@ -460,13 +460,12 @@ babel-plugin-check-es2015-constants@^6.22.0, babel-plugin-check-es2015-constants
   dependencies:
     babel-runtime "^6.22.0"
 
-babel-plugin-relay@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-relay/-/babel-plugin-relay-1.5.0.tgz#61145f75f59d6070fb50397832333fa734f8bead"
+"babel-plugin-relay@https://github.com/alloy/relay/releases/download/v1.5.0-plugin.5/babel-plugin-relay-1.5.0-plugin.5.tgz":
+  version "1.5.0-plugin.5"
+  resolved "https://github.com/alloy/relay/releases/download/v1.5.0-plugin.5/babel-plugin-relay-1.5.0-plugin.5.tgz#332211b9bbfeaf20195d4544b23c14ebd002047a"
   dependencies:
     babel-runtime "^6.23.0"
     babel-types "^6.24.1"
-    graphql "^0.13.0"
 
 babel-plugin-syntax-async-functions@^6.8.0:
   version "6.13.0"
@@ -1022,8 +1021,8 @@ babylon@^6.0.18, babylon@^6.18.0:
   resolved "https://registry.yarnpkg.com/babylon/-/babylon-6.18.0.tgz#af2f3b88fa6f5c1e4c634d1a0f8eac4f55b395e3"
 
 babylon@^7.0.0-beta:
-  version "7.0.0-beta.42"
-  resolved "https://registry.yarnpkg.com/babylon/-/babylon-7.0.0-beta.42.tgz#67cfabcd4f3ec82999d29031ccdea89d0ba99657"
+  version "7.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/babylon/-/babylon-7.0.0-beta.44.tgz#89159e15e6e30c5096e22d738d8c0af8a0e8ca1d"
 
 balanced-match@^1.0.0:
   version "1.0.0"
@@ -2045,8 +2044,8 @@ esprima@^4.0.0:
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.0.tgz#4499eddcd1110e0b218bacf2fa7f7f59f55ca804"
 
 esquery@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/esquery/-/esquery-1.0.0.tgz#cfba8b57d7fba93f17298a8a006a04cda13d80fa"
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/esquery/-/esquery-1.0.1.tgz#406c51658b1f5991a5f9b62b1dc25b00e3e5c708"
   dependencies:
     estraverse "^4.0.0"
 
@@ -2567,7 +2566,7 @@ graphql-relay@^0.5.5:
   version "0.5.5"
   resolved "https://registry.yarnpkg.com/graphql-relay/-/graphql-relay-0.5.5.tgz#d6815e6edd618e878d5d921c13fc66033ec867e2"
 
-graphql@^0.13.0, graphql@^0.13.2:
+graphql@^0.13.2:
   version "0.13.2"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-0.13.2.tgz#4c740ae3c222823e7004096f832e7b93b2108270"
   dependencies:
@@ -4136,14 +4135,19 @@ react-dom@^16.3.0:
     object-assign "^4.1.1"
     prop-types "^15.6.0"
 
-react-relay@1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/react-relay/-/react-relay-1.5.0.tgz#c985a4b9728c7bcbe9d3044511608be4c104a44b"
+react-lifecycles-compat@^1.0.2:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-1.1.1.tgz#8a48bbfd35d9d7635453ff07f7dcdf2b1cb6c1a6"
+
+"react-relay@https://github.com/alloy/relay/releases/download/v1.5.0-plugin.5/react-relay-1.5.0-plugin.5.tgz":
+  version "1.5.0-plugin.5"
+  resolved "https://github.com/alloy/relay/releases/download/v1.5.0-plugin.5/react-relay-1.5.0-plugin.5.tgz#d91110d8f693fa40afbeb6ffb23a130735b23452"
   dependencies:
     babel-runtime "^6.23.0"
     fbjs "^0.8.14"
     prop-types "^15.5.8"
-    relay-runtime "1.5.0"
+    react-lifecycles-compat "^1.0.2"
+    relay-runtime "1.5.0-plugin.5"
 
 react@^16.3.0:
   version "16.3.0"
@@ -4277,9 +4281,9 @@ regjsparser@^0.1.4:
   dependencies:
     jsesc "~0.5.0"
 
-relay-compiler@1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/relay-compiler/-/relay-compiler-1.5.0.tgz#564f1582c549fa6b4af9d9f09dadb5e239c11055"
+"relay-compiler@https://github.com/alloy/relay/releases/download/v1.5.0-plugin.5/relay-compiler-1.5.0-plugin.5.tgz":
+  version "1.5.0-plugin.5"
+  resolved "https://github.com/alloy/relay/releases/download/v1.5.0-plugin.5/relay-compiler-1.5.0-plugin.5.tgz#e848448db4c21410bc6e9cc52faec5c115d13c3e"
   dependencies:
     babel-generator "^6.26.0"
     babel-polyfill "^6.20.0"
@@ -4292,15 +4296,14 @@ relay-compiler@1.5.0:
     fast-glob "^2.0.0"
     fb-watchman "^2.0.0"
     fbjs "^0.8.14"
-    graphql "^0.13.0"
     immutable "~3.7.6"
-    relay-runtime "1.5.0"
+    relay-runtime "1.5.0-plugin.5"
     signedsource "^1.0.0"
     yargs "^9.0.0"
 
-relay-runtime@1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/relay-runtime/-/relay-runtime-1.5.0.tgz#95e7c26f95f216370f7d699290238a4d966a915c"
+relay-runtime@1.5.0-plugin.5, "relay-runtime@https://github.com/alloy/relay/releases/download/v1.5.0-plugin.5/relay-runtime-1.5.0-plugin.5.tgz":
+  version "1.5.0-plugin.5"
+  resolved "https://github.com/alloy/relay/releases/download/v1.5.0-plugin.5/relay-runtime-1.5.0-plugin.5.tgz#350a728592d614f6ae2bf0ba7ae8957f827ab3ba"
   dependencies:
     babel-runtime "^6.23.0"
     fbjs "^0.8.14"

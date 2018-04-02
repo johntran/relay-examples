@@ -6,10 +6,16 @@
     "update-schema": "babel-node ./scripts/updateSchema.js",
     "lint": "eslint ./js"
   },
+  "resolutions": {
+    "relay-compiler": "https://github.com/alloy/relay/releases/download/v1.5.0-plugin.5/relay-compiler-1.5.0-plugin.5.tgz",
+    "relay-runtime": "https://github.com/alloy/relay/releases/download/v1.5.0-plugin.5/relay-runtime-1.5.0-plugin.5.tgz",
+    "babel-plugin-relay": "https://github.com/alloy/relay/releases/download/v1.5.0-plugin.5/babel-plugin-relay-1.5.0-plugin.5.tgz",
+    "react-relay": "https://github.com/alloy/relay/releases/download/v1.5.0-plugin.5/react-relay-1.5.0-plugin.5.tgz"
+  },
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
-    "babel-plugin-relay": "^1.5.0",
+    "babel-plugin-relay": "https://github.com/alloy/relay/releases/download/v1.5.0-plugin.5/babel-plugin-relay-1.5.0-plugin.5.tgz",
     "babel-plugin-transform-runtime": "^6.12.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.11.1",
@@ -23,7 +29,8 @@
     "prop-types": "^15.6.1",
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
-    "react-relay": "1.5.0",
+    "react-relay": "https://github.com/alloy/relay/releases/download/v1.5.0-plugin.5/react-relay-1.5.0-plugin.5.tgz",
+    "relay-runtime": "https://github.com/alloy/relay/releases/download/v1.5.0-plugin.5/relay-runtime-1.5.0-plugin.5.tgz",
     "todomvc-app-css": "^2.1.0",
     "todomvc-common": "^1.0.3",
     "webpack": "^4.4.1",
@@ -38,6 +45,6 @@
     "eslint-plugin-babel": "3.3.0",
     "eslint-plugin-flowtype": "2.15.0",
     "eslint-plugin-react": "5.2.2",
-    "relay-compiler": "1.5.0"
+    "relay-compiler": "https://github.com/alloy/relay/releases/download/v1.5.0-plugin.5/relay-compiler-1.5.0-plugin.5.tgz"
   }
 }
